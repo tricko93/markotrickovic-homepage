@@ -32,6 +32,7 @@
 
 body {
     font-family: 'JetBrainsMono', 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
     font-weight: normal;
     margin: 20px;
     text-align: left;
@@ -39,6 +40,23 @@ body {
     color: #fff;
     padding-top: 70px;
     padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 header {
@@ -242,6 +260,18 @@ button:hover {
     width: 80px;
 }
 
+@media screen and (max-width: 768px) {
+    .project-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 .profile-picture-container {
     display: flex;
     justify-content: center;
@@ -270,6 +300,7 @@ button:hover {
 
 .projects-page .project-card {
     flex: 0 0 calc(50% - 40px);
+    width: 88%;
     margin: 10px 5px 10px 5px;
     padding: 15px;
     background-color: #fff;
