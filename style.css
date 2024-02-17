@@ -172,6 +172,10 @@ nav a:hover {
     .dropdown-menu.show {
         display: block;
     }
+
+    #logo {
+        font-size: 12px;
+    }
 }
 
 form {
