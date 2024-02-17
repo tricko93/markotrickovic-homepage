@@ -10,7 +10,11 @@
         <header>
             <nav>
                 <a id="logo" href="index.html">Marko Tričković</a>
-                <ul>
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+                    <img src="images/hamburger.svg" alt="" width="28" height="27" />
+                </button>
+
+                <ul class="dropdown-menu">
                     <li><a href="works.html">Works</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -114,5 +118,6 @@
         <footer>
             <p>&copy; 2024 Marko Tričković. All Rights Reserved.</p>
         </footer>
+        <script src="toggle-hamburger-menu.js"></script>
     </body>
 </html>
