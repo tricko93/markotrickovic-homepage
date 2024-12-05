@@ -353,6 +353,24 @@ button:hover {
     transform: scale(1.05);
 }
 
+.hardware-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hardware-page .hardware-card {
+    flex: 0 0 calc(50% - 40px);
+    width: 88%;
+    margin: 10px 5px 10px 5px;
+    padding: 15px;
+    background-color: #C0C0C0;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 footer {
     background-color: #333;
     color: #fff;

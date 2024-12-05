@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Asus ROG Strix Scope 96 II Wireless",
+        "images": [
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_01.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_02.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_03.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_04.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_05.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_06.jpg",
+            "images/markos_hw/asus_ss_ii_96/asus_ss_96_ii_07.jpg"
+        ],
+        "desc": "This keyboard is my primary tool for development in my home office setup."
+    },
+    {
+        "name": "RAZER DEATHADDER V3 PRO",
+        "images": [
+            "images/markos_hw/razer_da_v3_pro/razer_da_v3_pro_01.jpg",
+            "images/markos_hw/razer_da_v3_pro/razer_da_v3_pro_02.jpg",
+            "images/markos_hw/razer_da_v3_pro/razer_da_v3_pro_03.jpg",
+            "images/markos_hw/razer_da_v3_pro/razer_da_v3_pro_04.jpg"
+        ],
+        "desc": "My main mouse used for work and occasioanl gaming at home."
+    },
+    {
+        "name": "Logitech MX Keys S",
+        "images": [
+            "images/markos_hw/logi_mx_keys_s/logi_mx_keys_s_01.jpg",
+            "images/markos_hw/logi_mx_keys_s/logi_mx_keys_s_02.jpg",
+            "images/markos_hw/logi_mx_keys_s/logi_mx_keys_s_03.jpg"
+        ],
+        "desc": "I use this keyboard every day at work, carrying it in my backpack. It’s been cleaned regularly. The minimalist design promotes better wrist posture and reduces strain on joints."
+    },
+    {
+        "name": "Logitech Master 3S",
+        "images": [
+            "images/markos_hw/logi_master_3s/logi_master_3s_01.jpg",
+            "images/markos_hw/logi_master_3s/logi_master_3s_02.jpg",
+            "images/markos_hw/logi_master_3s/logi_master_3s_03.jpg",
+            "images/markos_hw/logi_master_3s/logi_master_3s_04.jpg"
+        ],
+        "desc": "Master 3s is irreplaceable for tasks at hand for everyday, my primary tool for office use at my workplace - I cary it in the back everyday. I am in love with MagSpeed elegtromagnetic scroll wheel, not to mention the ergonomic design."
+    },
+    {
+        "name": "Eppa Dual Monitor Arm",
+        "images": [
+            "images/markos_hw/eppa_dual/eppa_dual_01.jpg",
+            "images/markos_hw/eppa_dual/eppa_dual_02.jpg",
+            "images/markos_hw/eppa_dual/eppa_dual_03.jpg",
+            "images/markos_hw/eppa_dual/eppa_dual_04.jpg"
+        ],
+        "desc": "Monitror arms are the comfiest long-term investment, I found immense satisfaction in this small upgrade. They free up significant table space while providing a full view of my daul monitor setup. While some opt for a triple-monitor configuration, I find that two monitors strike the perfect balance."
+    },
+    {
+        "name": "IKEA Markus Chair",
+        "images": [
+            "images/markos_hw/markus/markus_01.jpg",
+            "images/markos_hw/markus/markus_02.jpg"
+        ],
+        "desc": "For chair, Markus is my main chair at home office setup. It's my lucky 3rd chair (you know how they say: 3rds time is charm). So, enjoying my working home to the max."
+    },
+    {
+        "name": "Logitech G435",
+        "images": [
+            "images/markos_hw/logi_g435/logi_g435_01.jpg",
+            "images/markos_hw/logi_g435/logi_g435_02.jpg",
+            "images/markos_hw/logi_g435/logi_g435_03.jpg"
+        ],
+        "desc": "The Logitech G435, a birthday gift - quickly became a favorite - while there are better options this ones are superb for my taste - I would incline on the side of Marshall Major IV headset for anyone who's wondering which ones to buy."
+    },
+    {
+        "name": "Acer Aspire 3 Laptop",
+        "images": [
+            "images/markos_hw/acer_aspire_3/acer_aspire_3_01.jpg"
+        ],
+        "desc": "CPU: Intel Core i7 11th Gen; RAM: 36 GB of DDR4; SSD: 512 GB;"
+    },
+    {
+        "name": "Cooler Master NotePal",
+        "images": [
+            "images/markos_hw/cm_notepal/cm_notepal_01.jpg",
+            "images/markos_hw/cm_notepal/cm_notepal_02.jpg",
+            "images/markos_hw/cm_notepal/cm_notepal_03.jpg",
+            "images/markos_hw/cm_notepal/cm_notepal_04.jpg"
+        ],
+        "desc": "Adjustable FAN positions are must in my case. If you're having Laptop with vents that are positioned on the top side of the back of the laptop. Proper ventilation helps maintain cooler CPU temps., which is essential for optimal performance and longevity."
+    },
+    {
+        "name": "Wenger Backpack",
+        "images": [
+            "images/markos_hw/wenger/wenger_01.jpg",
+            "images/markos_hw/wenger/wenger_02.jpg",
+            "images/markos_hw/wenger/wenger_03.jpg",
+            "images/markos_hw/wenger/wenger_04.jpg",
+            "images/markos_hw/wenger/wenger_05.jpg"
+        ],
+        "desc": "I got this one out of the Swiss souvenir shop. This one is security and privacy aware."
+    }
+]

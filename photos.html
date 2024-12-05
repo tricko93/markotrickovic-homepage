@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Images</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="title">Hardware Detail</h1>
+    <div id="slideshow-container" class="slideshow-container">
+        <!-- Slides will be dynamically added here -->
+        <!-- Navigation buttons (prev/next) -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <p id="description"></p> <!-- Placeholder for description -->
+
+    <!-- Include JavaScript for slideshow functionality -->
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('slideshow-container');
+            const descriptionElement = document.getElementById('description');
+            const title = document.getElementById('title');
+
+            // Parse query parameter to get selected item name
+            const urlParams = new URLSearchParams(window.location.search);
+            const itemName = urlParams.get('item');
+
+            title.textContent = itemName;
+
+            // Fetch data and filter for selected item
+            fetch('hardware-data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const selectedItem = data.find(item => item.name === itemName);
+                    if (selectedItem) {
+                        descriptionElement.textContent = selectedItem.desc; // Set description text
+
+                        selectedItem.images.forEach((image, index) => {
+                            const slide = document.createElement('div');
+                            slide.classList.add('mySlides', 'fade');
+
+                            const img = document.createElement('img');
+                            img.src = image;
+                            img.alt = `${selectedItem.name} Image ${index + 1}`;
+
+                            slide.appendChild(img);
+                            container.appendChild(slide);
+                        });
+
+                        // Display slideshow after adding slides
+                        showSlides(1);
+                    } else {
+                        console.error(`Hardware item "${itemName}" not found.`);
+                    }
+                })
+                .catch(error => console.error('Error fetching hardware data:', error));
+            });
+    </script>
+
+
+
+</body>
+</html>
