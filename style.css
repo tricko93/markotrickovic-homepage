@@ -137,6 +137,32 @@ nav a:hover {
     font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
+    position: relative;
+    width: 180px;
+    height: 25px;
+}
+
+.logo-icon {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 300px;
+    height: 80px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.logo-text {
+    position: absolute;
+    font-size: 18px;
+    max-width: 150px;
+    white-space: nowrap;
+    height: 25px;
+    top: 0;
+    left: 35%;
+    width: 100px;
+    transform: translateX(-50%);
+    z-index: 2;
 }
 
 .menu-toggle {
@@ -175,6 +201,18 @@ nav a:hover {
 
     #logo {
         font-size: 12px;
+        position: relative;
+        width: 140px;
+        height: 20px;
+    }
+    
+    .logo-icon {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+        z-index: 1;
     }
 }
 
@@ -319,16 +357,26 @@ button:hover {
     overflow:hidden;
     width: 100px;
     height: 100px;
-    overflow: hidden;
     margin: 0 auto;
     border: 2px solid #fff;
+    position: relative;
 }
 
-.profile-picture-container img {
+.profile-picture-container img .profile-image {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.profile-picture-container img.santa-hat {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-35%);
+    width: 60px;
+    height: 60px;
+    z-index: 1;
 }
 
 .project-card-container {
